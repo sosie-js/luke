@@ -50,7 +50,7 @@ return {
    DEFAULTENV = filter_platforms {
       LUAVERSION    = LUAVERSION,
 
-      PREFIX        = '/usr/local',
+      PREFIX        = getenv('PREFIX')or'/usr/local',
       INST_LIBDIR   = '$PREFIX/lib/lua/$LUAVERSION',
       INST_LUADIR   = '$PREFIX/share/lua/$LUAVERSION',
 
