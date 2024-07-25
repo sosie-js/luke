@@ -46,8 +46,8 @@ end
 -- i tried many but none worked
 
 -- cmd:str shell command
--- mask_stdout: if true redirect to a maygiver pipe  so stdout is masked
--- mask_stderr: if true  redirect to a maygiver pipe so stderr is masked 
+-- mask_stdout: if true redirect to a macgyver pipe  so stdout is masked
+-- mask_stderr: if true  redirect to a macgyver pipe so stderr is masked 
 --
 --returns  output, err   where output is stdout and err is stderr message
 local function luarock_execute(cmd , mask_stdout, mask_stderr)
