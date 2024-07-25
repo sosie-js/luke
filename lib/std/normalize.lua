@@ -276,6 +276,7 @@ return setmetatable({
    sub           = string.sub,
    tmpname       = os.tmpname,
    tonumber      = tonumber,
+   tostring      = tostring,
    type          = type,
 
    unpack = function(seq, i, j)
