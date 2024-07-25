@@ -137,7 +137,7 @@ local function luarock_prefix(scope,debug)
                     line, pos= gsub(line, '[%s,"]', "")
                     return line
                 else
-                    return '"'..scope..'"'
+                    return scope
                 end
             end
             if pos ==1 then
